@@ -1,0 +1,41 @@
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cultural-video {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.play-btn, .pause-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-btn {
+    background: #4CAF50;
+    color: white;
+}
+
+.pause-btn {
+    background: #f44336;
+    color: white;
+}

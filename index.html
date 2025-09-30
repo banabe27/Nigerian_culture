@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria Cultural Interactive Video</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nigeria Cultural Interactive Experience</h1>
+    </header>
+    
+    <main class="video-container">
+        <section class="cultural-video" id="yoruba-video">
+            <h2>Yoruba Culture</h2>
+            <video controls>
+                <source src="yoruba.mp4" type="video/mp4">
+            </video>
+            <div class="video-controls">
+                <button class="play-btn">Play</button>
+                <button class="pause-btn">Pause</button>
+            </div>
+        </section>
+        
+        <section class="cultural-video" id="igbo-video">
+            <h2>Igbo Culture</h2>
+            <video controls>
+                <source src="igbo.mp4" type="video/mp4">
+            </video>
+            <div class="video-controls">
+                <button class="play-btn">Play</button>
+                <button class="pause-btn">Pause</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="videoManager.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
